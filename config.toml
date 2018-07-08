@@ -1,21 +1,73 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Josh's Tech Blog"
-theme = "base16"
-pygmentsuseclasses = true
+theme = "blackburn"
 canonifyurls = true
-contentdir = "content"
-layoutdir = "layouts"
-publishdir = "public"
-MetaDataFormat = "toml"
-[taxonomies]
-    tag = "tags"
+paginate = 10
 
-[[menu.main]]
-    name = "Home" #Name in the navigation bar
-    weight = 10 #The larger the weight, the more on the right this item will be
-    url = "/" #URL address
-[[menu.main]]
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  # Shown in the home page
+  subtitle = "A Hugo Theme"
+  brand = "Blackburn"
+  googleAnalytics = "Your Google Analytics tracking ID"
+  disqus = "Your Disqus shortname"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  highlightjs_extra_languages = ["yaml"]
+  dateFormat = "02 Jan 2006, 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  custom_css = ["css/my.css"]
+  custom_js = ["js/my.js"]
+
+  [params.piwikAnalytics]
+    siteid = 2
+    piwikroot = "//analytics.example.com/"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
     name = "Posts"
-    weight = 20
-    url = "/posts/"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
+
+[social]
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  twitter = "*"
+
+  # SNS photo/video sharing
+  slideshare = "*"
+
+
+  # Techie
+  github = "yhkaplan"
+  stackoverflow = "*"
+
+  # Other
+  keybase = "*"
