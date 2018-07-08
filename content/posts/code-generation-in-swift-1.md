@@ -1,10 +1,10 @@
----
-title: "Code Generation in Swift 1"
-date: 2018-07-07T12:18:28+09:00
-draft: true
----
-
-# Code Generation in Swift: Part 1
++++
+title = "Code Generation in Swift: Part 1"
+date = 2018-07-07T12:18:28+09:00
+draft = false
+tags = ["Getting started"]
+categories = []
++++
 
 This entry is the first in a series that I plan on writing about code generation in Swift.
 
