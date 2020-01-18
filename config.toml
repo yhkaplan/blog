@@ -1,4 +1,4 @@
-baseURL = "yhkaplan.github.io" # TODO: change
+baseURL = "https://blissful-heyrovsky-631a4b.netlify.com/"
 languageCode = "en-us"
 title = "Josh's Tech Blog"
 theme = "m10c"
