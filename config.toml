@@ -1,4 +1,4 @@
-baseURL = "https://blissful-heyrovsky-631a4b.netlify.com/"
+baseURL = "http://www.yhkaplan.com" # TODO: set to https when working
 languageCode = "en-us"
 title = "Josh's Tech Blog"
 theme = "m10c"
