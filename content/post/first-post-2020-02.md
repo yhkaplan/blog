@@ -1,6 +1,6 @@
 +++
 title = "First Post"
-date = 2019-02-25T12:18:28+09:00
+date = 2020-02-25T12:18:28+09:00
 draft = false
 tags = ["goals"]
 categories = []
@@ -39,4 +39,3 @@ I really like Go. It's type-safe and compiled, but /really/ fast to build. Peopl
 #### Conclusion
 
 Like any other year, I have a lot to learn. Being a Senior Engineer, I realize how much I just don't know yet, and how far I have to go.
-
