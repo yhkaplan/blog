@@ -1,6 +1,6 @@
 +++
 title = "Structuring an iOS App Project in 2020"
-date = 2019-04-15T11:00:00+09:00
+date = 2020-04-15T11:00:00+09:00
 draft = false 
 tags = ["ios", "app", "automation"]
 categories = []
