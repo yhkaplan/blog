@@ -27,3 +27,6 @@ pygmentsCodeFences = true
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/yhkaplan"
+  [[params.social]]
+    name = "youtube"
+    url = "https://www.youtube.com/channel/UC60nj_OnBa5HUt9Gulgtziw"
