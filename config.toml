@@ -13,7 +13,7 @@ pygmentsCodeFences = true
 
 [params]
   author = "Josh Kaplan"
-  description = "iOS developer and aspiring backend developer"
+  description = "Mobile Developer"
   avatar = "https://avatars3.githubusercontent.com/u/25879490?s=400&v=4"
   # avatar = "static/assets/images/profile.jpeg"
   subtitle = "A Hugo Theme"
